@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="700px"
+    android:padding="10dp"
+    android:weightSum="100"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Nombrelugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="Nombre del Lugar"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#3E0518"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgFacultad"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/pollito" />
+
+    <TextView
+        android:id="@+id/Nombredireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="Dirección del Lugar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#100D0E"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
